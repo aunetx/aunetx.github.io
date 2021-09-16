@@ -5,16 +5,24 @@
     <title>{{ page.title }}</title>
     <link rel="stylesheet" type="text/css" href="/css/main.css">
     <link rel="shortcut icon" type="image/jpg" href="/data/favicon.jpg">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400;1,700&family=Raleway:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+        rel="stylesheet">
+    <script src="/js/main.js"></script>
 </head>
 
 <body>
     <nav class="n_f">
-        <img src="/data/favicon.jpg" id="profile-img">
+        <a href="https://en.wikipedia.org/wiki/Sophie_Scholl"><img src="/data/favicon.jpg" id="profile-img"></a>
         <ul>
-            <li><a href="/"><span>Home</span></a></li>
-            <li><a href="/projects"><span>Projects</span></a></li>
-            <li><a href="/"><span>About</span></a></li>
-            <li><a href="/"><span>Contact</span></a></li>
+            <li><a href="/" {% if page.dir=="/" %} id="current-page" {% endif %}><span>Home</span></a></li>
+            <li><a href="/projects/" {% if page.dir=="/projects/" %} id="current-page" {% endif
+                    %}><span>Projects</span></a></li>
+            <li><a href="/about/" {% if page.dir=="/about/" %} id="current-page" {% endif %}><span>About</span></a></li>
+            <li><a href="/contact/" {% if page.dir=="/contact/" %} id="current-page" {% endif
+                    %}><span>Contact</span></a></li>
         </ul>
     </nav>
     <div class="container">
