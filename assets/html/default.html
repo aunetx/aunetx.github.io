@@ -3,19 +3,20 @@
 
 <head>
     <title>{{ page.title }}</title>
-    <link rel="stylesheet" type="text/css" href="/css/main.css">
-    <link rel="shortcut icon" type="image/jpg" href="/data/favicon.jpg">
+    <link rel="stylesheet" type="text/css" href="/assets/css/main.css">
+    <link rel="shortcut icon" type="image/jpg" href="/assets/images/favicon.jpg">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
         href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400;1,700&family=Raleway:ital,wght@0,400;0,700;1,400;1,700&display=swap"
         rel="stylesheet">
-    <script src="/js/main.js"></script>
+    <script src="/assets/js/main.js"></script>
 </head>
 
 <body>
     <nav class="n_f">
-        <a href="https://en.wikipedia.org/wiki/Sophie_Scholl"><img src="/data/favicon.jpg" id="profile-img"></a>
+        <a href="https://en.wikipedia.org/wiki/Sophie_Scholl"><img src="/assets/images/favicon.jpg"
+                id="profile-img"></a>
         <ul>
             <li><a href="/" {% if page.dir=="/" %} id="current-page" {% endif %}><span>Home</span></a></li>
             <li><a href="/projects/" {% if page.dir=="/projects/" %} id="current-page" {% endif

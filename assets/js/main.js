@@ -18,13 +18,15 @@ function check_current_page_id() {
 
 function check_full_height_taken() {
     let footer = document.getElementsByTagName("footer")[0];
-    window.onresize = () => {
+    let check_height = () => {
         if (document.body.offsetHeight >= window.innerHeight) {
             footer.className = "n_f full-height-taken"
         } else {
             footer.className = "n_f"
         }
     }
+    window.onresize = check_height;
+    check_height();
 }
 
 window.onload = function () {

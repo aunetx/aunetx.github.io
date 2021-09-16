@@ -1,3 +1,12 @@
+$page-background-color: white;
+
+$ui-background-color: whitesmoke;
+$ui-background-image: "/assets/images/border.svg";
+$ui-border-style: .5px solid #9400ff;
+
+$ui-height: 46px;
+
+
 body {
     font-family: 'Lato', sans-serif;
     margin: auto;
@@ -7,9 +16,9 @@ body {
 
 .n_f {
     display: flex;
-    height: 46px;
-    background-color: whitesmoke;
-    border: .5px solid #9400ff;
+    height: $ui-height;
+    background-color: $ui-background-color;
+    border: $ui-border-style;
     border-radius: 6px;
 }
 
@@ -26,8 +35,8 @@ footer.full-height-taken {
 }
 
 #profile-img {
-    width: 46px;
-    height: 46px;
+    width: $ui-height;
+    height: $ui-height;
     border-bottom-left-radius: 5.5px;
     transition-duration: .2s;
 }
@@ -37,7 +46,7 @@ footer.full-height-taken {
 }
 
 .n_f ul {
-    background-image: url("/data/border.svg");
+    background-image: url($ui-background-image);
     background-repeat: space;
     background-size: 10px;
     height: 100%;
@@ -48,7 +57,7 @@ footer.full-height-taken {
 }
 
 nav ul {
-    width: calc(100% - 46px);
+    width: calc(100% - #{$ui-height});
 }
 
 footer ul {
@@ -69,8 +78,8 @@ footer ul {
 
 .n_f ul li span {
     transition-duration: .2s;
-    border: .5px solid #9400ff;
-    background-color: white;
+    border: $ui-border-style;
+    background-color: $page-background-color;
     padding: 5px 12px 7px 12px;
     border-radius: 6px;
     width: 100%;
@@ -85,14 +94,14 @@ nav a, footer a {
 
 #current-page:not(.hide-current-page) span {
     padding: 13px 30px 14.3px 30px;
-    border-top-color: white;
-    border-bottom-color: white;
+    border-top-color: $page-background-color;
+    border-bottom-color: $page-background-color;
     border-radius: 0;
 }
 
 .n_f ul li span:hover {
-    border-top-color: white;
-    border-bottom-color: white;
+    border-top-color: $page-background-color;
+    border-bottom-color: $page-background-color;
     border-radius: 0;
 }
 
@@ -106,9 +115,4 @@ footer ul li span:hover {
 
 .container {
     margin: 30px 10px;
-}
-
-h1 {
-    font-family: 'Raleway', sans-serif;
-    padding-left: 1em;
 }
