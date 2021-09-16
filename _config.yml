@@ -1,5 +1,4 @@
 name: aunetx — Aurélien Hamy
 sass:
   sass_dir: assets/css
-  style: compressed
 layouts_dir: assets/html
