@@ -1,0 +1,56 @@
+==================================================================
+https://keybase.io/aunetx
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://aunetx.dev
+  * I am aunetx (https://keybase.io/aunetx) on keybase.
+  * I have a public key ASCDiSxNxsFleld5NknwugpUUwO8dl2MJf-AAo2oWuDEWQo
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "0120b26f89fd34340ea64ce271880b56e2c447cac05da940b69a2272a4a2eabe474d0a",
+      "host": "keybase.io",
+      "kid": "012083892c4dc6c1657a57793649f0ba0a545303bc765d8c25ff80028da85ae0c4590a",
+      "uid": "4df78fdc29dca12dabd0a480ff733e19",
+      "username": "aunetx"
+    },
+    "merkle_root": {
+      "ctime": 1636757029,
+      "hash": "e0fe7caf5f9a0261ad434b3a485847a58932be91b2d5b1158b6a55b8facb2e288d4b4f6ee98e4d0fc7eea9cf54fd381e97444b9d10505a1385b1f227aa89463f",
+      "hash_meta": "bf8e73470efb5d8e9b8d266a8d74421cf43df513a5f26c9a99a8893030b7fc83",
+      "seqno": 21208013
+    },
+    "service": {
+      "entropy": "v5z9fcgy+msgXyUttc2/z15C",
+      "hostname": "aunetx.dev",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 2
+  },
+  "client": {
+    "name": "keybase.io go client",
+    "version": "5.8.1"
+  },
+  "ctime": 1636757086,
+  "expire_in": 504576000,
+  "prev": "38281bb83776aed9adf35fa3c221662fc0a1e923b21f1c1570e724633cced638",
+  "seqno": 57,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgg4ksTcbBZXpXeTZJ8LoKVFMDvHZdjCX/gAKNqFrgxFkKp3BheWxvYWTESpcCOcQgOCgbuDd2rtmt81+jwiFmL8Ch6SOyHxwVcOckYzzO1jjEIH4uUq8UvmS7Bbj2Ku8NfbeIqIsx5Gbehsq5vs2i+Zp1AgHCo3NpZ8RAFUcOK4hIzHAKyx5tZPNZuntpJNIrFSk4tD1p2H2zc8UzS+F0rReLSr1NabAA9mpJufTEJ5Gz34qpC+7SRmfEAqhzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEIEOfzq955aUej5CmlHqscmq3D6+XWhKJ4z/bCIn+8yEno3RhZ80CAqd2ZXJzaW9uAQ==
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/aunetx
+
+==================================================================
