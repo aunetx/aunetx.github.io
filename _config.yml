@@ -2,3 +2,4 @@ name: aunetx — Aurélien Hamy
 sass:
   sass_dir: assets/css
 layouts_dir: assets/html
+include: .well-known
